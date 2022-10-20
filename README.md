@@ -1,2 +1,3 @@
 # groupProject
-I suck at JavaScript
+I like using Javascript to make my webpages more interactive.
+
