@@ -29,6 +29,6 @@ console.log('test')
 
 generate.addEventListener("click", generateWord);
 //Create elememt audio
-{/* <audio controls>
-  <source src="http://audio.linguarobot.io/en/example-us.mp3" type="audio/mpeg">
-</audio> */}
+// { <audio controls>
+//   <source src="http://audio.linguarobot.io/en/example-us.mp3" type="audio/mpeg">
+// </audio> }

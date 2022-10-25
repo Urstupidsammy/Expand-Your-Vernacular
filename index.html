@@ -5,13 +5,22 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Random Word</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
   <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 <body>
-  <button disabled="generate">Generate</button>
-  <div class="randomWord" id="randomWord">
-    Word
+  <header>Expand your Vernacular</header>
+  <div class="container is-fluid">
+    <div class="notification is-primary">
+      This container is <strong>fluid</strong>: it will have a 32px gap on either side, on any
+      viewport size.
+    </div>
   </div>
+  <main class="box">
+     <div class="container" id="randomWord">
+      <button id="generate">Generate</button>
+     </div>
+  </main>
 </body>
 <script src="./assets/js/script.js"></script>
 </html>
