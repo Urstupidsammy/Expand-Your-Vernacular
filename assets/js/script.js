@@ -1,4 +1,3 @@
-
 // APIs 
 let randomWordApi = 'https://random-word-api.herokuapp.com/word'
 let wordDefinitonApi = 'https://api.dictionaryapi.dev/api/v2/entries/en/'
@@ -7,16 +6,32 @@ let wordDefinitonApi = 'https://api.dictionaryapi.dev/api/v2/entries/en/'
 const generate = document.getElementById("generate");
 const wordBox = document.getElementById("generted-word");
 const definitionBox = document.getElementById("definitionBox");
-const clearBtn = document.getElementById("clear")
+const clearBtn = document.getElementById("clear");
+const date = document.getElementById("date");
+
+// Today's date
+var today = new Date();
+var dd = String(today.getDate()).padStart(2, '0');
+var mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
+var yyyy = today.getFullYear();
+
+today = mm + '/' + dd + '/' + yyyy;
+
+date.textContent = today
+
+console.log(today)
 
 // Function to call the API to get a random word 
 function generateWord() {
+    definitionBox.textContent = "Loading...";
     fetch(randomWordApi)
     .then(response => response.json())
-    .then(words => {
-        console.log(words[0]);
+    .then(data => {
+
+        let word = data[0];
+
         // This passes in the word into the getWordDetails function 
-        getWordDetails(words[0]);
+        getWordDetails(word);
     })
 }
 
@@ -57,6 +72,8 @@ function clearAll() {
     wordBox.textContent = "Hello!";
     definitionBox.textContent = "Click below to learn a new word!";
 };
+
+// Event listeners
 
 clearBtn.addEventListener("click", clearAll);
 
