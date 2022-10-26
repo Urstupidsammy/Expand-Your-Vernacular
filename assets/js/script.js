@@ -25,12 +25,15 @@ function getWordDetails(word) {
     fetch(wordDefinitonApi + word)
         .then(response => response.json())
         .then(response => {
+
             // This checks if the word has a definition 
             if (response.title) {
                 console.error("No definition found")
                 generateWord();
                 return;
             }
+
+            console.log(response)
 
             // Make first letter in word Capitalized 
             const finalWord = word.charAt(0).toUpperCase() + word.slice(1)
