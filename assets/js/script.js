@@ -1,6 +1,9 @@
 var randomWordApi = 'https://random-word-api.herokuapp.com/word'
 var generate = document.getElementById("generate");
 
+const wordBox = document.getElementById("generted-word");
+const definitionBox = document.getElementById("definitionBox")
+
 function generateWord() {
     fetch(randomWordApi)
     .then(response => response.json())
@@ -14,11 +17,21 @@ function getWordDetails(word) {
     fetch('https://api.dictionaryapi.dev/api/v2/entries/en/' + word)
         .then(response => response.json())
         .then(response => {
-            console.log(response)
             if (response.title) {
                 console.error("No definition found")
                 generateWord();
+                return;
             }
+            // Store the definition 
+            let definition = response[0].meanings[0].definitions[0].definition
+
+            // Change the word on the page 
+            wordBox.textContent = word;
+            // Change the definition on the page 
+            definitionBox.textContent = definition;
+
+
+
         })
         .catch(function (err) {
             console.error("No definition found", err)

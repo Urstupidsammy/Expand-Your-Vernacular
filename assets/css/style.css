@@ -20,6 +20,14 @@ h1 {
   margin: 2rem;
 }
 
+#generted-word {
+  background-color: lightblue;
+  padding: 1rem 2.5rem;
+  border-radius: 8px;
+  border: 1px solid darkblue;
+  font-size: 2rem;
+}
+
 #generate {
   width: 260px;
   height: 6rem;
