@@ -2,7 +2,9 @@ var randomWordApi = 'https://random-word-api.herokuapp.com/word'
 var generate = document.getElementById("generate");
 
 function generateWord() {
-    fetch(randomWordApi).then(response => response.json()).then(function (words) {
+    fetch(randomWordApi)
+    .then(response => response.json())
+    .then(words => {
         console.log(words[0]);
         getWordDetails(words[0]);
     })
