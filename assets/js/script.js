@@ -10,16 +10,14 @@ const clearBtn = document.getElementById("clear");
 const date = document.getElementById("date");
 
 // Today's date
-var today = new Date();
-var dd = String(today.getDate()).padStart(2, '0');
-var mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
-var yyyy = today.getFullYear();
+let today = new Date();
+let dd = String(today.getDate()).padStart(2, '0');
+let mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
+let yyyy = today.getFullYear();
 
 today = mm + '/' + dd + '/' + yyyy;
 
 date.textContent = today
-
-console.log(today)
 
 // Function to call the API to get a random word 
 function generateWord() {
