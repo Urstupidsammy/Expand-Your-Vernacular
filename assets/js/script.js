@@ -22,11 +22,15 @@ function getWordDetails(word) {
                 generateWord();
                 return;
             }
+
+            // Make first letter in word Capitalized 
+            const finalWord = word.charAt(0).toUpperCase() + word.slice(1)
+
             // Store the definition 
             let definition = response[0].meanings[0].definitions[0].definition
 
             // Change the word on the page 
-            wordBox.textContent = word;
+            wordBox.textContent = finalWord;
             // Change the definition on the page 
             definitionBox.textContent = definition;
 
