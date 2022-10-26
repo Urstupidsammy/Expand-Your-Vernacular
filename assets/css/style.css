@@ -7,5 +7,46 @@
 }
 
 body {
-  background-color: rgb(235, 235, 235);
+  background-color: rgb(218, 218, 218);
+}
+
+main {
+  width: 100vw;
+  height: 100vh;
+}
+
+h1 {
+  font-weight: bold;
+  margin: 2rem;
+}
+
+#generate {
+  width: 260px;
+  height: 6rem;
+  padding: 1px;
+  font-size: 2rem;
+  border-radius: 20px;
+  background: linear-gradient(to right, #f9c4c0, red);
+  color: white;
+}
+
+#generate:hover {
+  background: linear-gradient(to left, #f9c4c0, red);
+  cursor: pointer;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20%;
 }
