@@ -2,7 +2,7 @@
 let randomWordApi = 'https://random-word-api.herokuapp.com/word'
 let wordDefinitonApi = 'https://api.dictionaryapi.dev/api/v2/entries/en/'
 
-// Page Elements 
+// Page Elements by IDs
 const generate = document.getElementById("generate");
 const wordBox = document.getElementById("generted-word");
 const definitionBox = document.getElementById("definitionBox");
@@ -77,6 +77,7 @@ clearBtn.addEventListener("click", clearAll);
 
 generate.addEventListener("click", generateWord);
 
+//Future Development Idea
 //Create elememt audio
 {/* <audio controls>
   <source src="http://audio.linguarobot.io/en/example-us.mp3" type="audio/mpeg">
