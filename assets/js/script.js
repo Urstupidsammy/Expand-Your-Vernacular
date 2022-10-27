@@ -77,6 +77,9 @@ clearBtn.addEventListener("click", clearAll);
 
 generate.addEventListener("click", generateWord);
 
+
+//Future Development Idea
+
 //Create elememt audio
 {/* <audio controls>
   <source src="http://audio.linguarobot.io/en/example-us.mp3" type="audio/mpeg">
