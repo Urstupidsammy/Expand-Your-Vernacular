@@ -5,10 +5,7 @@ In this project we collaborated to create a website that allows users a unique e
 
 In completing this project we have learned how to use a CSS framework to design a webpage. We also were able to utilize data from third-party APIs in conjuntion with javascript to create an interactive web application. 
 
-
 ![RandomWord-App](assets/imgs/RandomWord.gif)
-
-
 
 ## Mobile Design 
 
@@ -49,6 +46,11 @@ This website allows for users a chance to acquire a vast array of words to add t
 https://urstupidsammy.github.io/groupProject/
 
 ## Credits
+
+* Samuel Galban https://github.com/Urstupidsammy
+* Luke Mcilvenny  https://github.com/TDGLU
+* Erick Islas https://github.com/Erick454
+* Cherie Walker https://github.com/Cherie2
 
 Resources of significance:
 
