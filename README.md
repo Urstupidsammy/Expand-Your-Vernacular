@@ -9,7 +9,7 @@ In completing this project we have learned how to use a CSS framework to design 
 
 ## Mobile Design 
 
-![RandomWord-App](/assets/imgs/ScreenshotMobile.png)
+![RandomWord-App](./assets/imgs/ScreenshotMobile.png)
 
 https://urstupidsammy.github.io/groupProject/
 

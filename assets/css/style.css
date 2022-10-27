@@ -1,6 +1,7 @@
 /* Fonts  */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
 
+/* Universal margin and padding reset */
 * {
   margin: 0;
   padding: 0;
@@ -8,6 +9,8 @@
   scroll-behavior: smooth;
 }
 
+
+/* Background svg and font */
 body {
   background-image: url("../imgs/blob-scene-haikei.svg");
   background-repeat: no-repeat;
@@ -17,11 +20,13 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
+/* Selects the whole view witdh and height */
 main {
   width: 100vw;
   height: 100vh;
 }
 
+/* Title */
 h1 {
   text-align: center;
   font-size: 3rem;
@@ -29,6 +34,7 @@ h1 {
   margin: 2rem;
 }
 
+/* Today's date */
 #date {
   color: rgb(0, 174, 255);
   font-size: 2rem;
@@ -36,6 +42,7 @@ h1 {
   margin: 0;
 }
 
+/* The Generator with the word and description */
 .main-content {
   display: flex;
   flex-direction: column;
@@ -47,6 +54,7 @@ h1 {
   margin: 10%;
 }
 
+/* Generated word */
 #generted-word {
   background-color: rgba(173, 216, 230, 0);
   padding: 1rem;
@@ -56,6 +64,7 @@ h1 {
   font-weight: bold;
 }
 
+/* Generate button */
 #generate {
   width: 260px;
   height: 6rem;
@@ -80,12 +89,14 @@ h1 {
   cursor: pointer;
 }
 
+/* Entire page */
 .box {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
+/* Generate button container */
 .container {
   width: 100%;
   display: flex;
@@ -94,7 +105,7 @@ h1 {
   height: 20%;
 }
 
-/* clear styles  */
+/* Clear styles  */
 #clear {
   padding: 1rem;
   outline: none;
