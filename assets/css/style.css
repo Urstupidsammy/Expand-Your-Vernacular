@@ -32,6 +32,7 @@ h1 {
 #date {
   color: rgb(0, 174, 255);
   font-size: 2rem;
+  font-weight: bold;
   margin: 0;
 }
 
