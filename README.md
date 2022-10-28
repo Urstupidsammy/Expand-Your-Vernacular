@@ -43,7 +43,7 @@ In order to utilize this website, user must have access to a web browser.
 
 This website allows for users a chance to acquire a vast array of words to add to their vocabulary. A user just needs to click the generate button and the website will pull from a massive library of words and provide both the word and definition.
 
-https://urstupidsammy.github.io/groupProject/
+https://urstupidsammy.github.io/Expand-Your-Vernacular/
 
 ## Credits
 
