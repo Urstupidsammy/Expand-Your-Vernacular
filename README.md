@@ -5,13 +5,14 @@ In this project we collaborated to create a website that allows users a unique e
 
 In completing this project we have learned how to use a CSS framework to design a webpage. We also were able to utilize data from third-party APIs in conjuntion with javascript to create an interactive web application. 
 
+https://urstupidsammy.github.io/Expand-Your-Vernacular/
+
 ![RandomWord-App](assets/imgs/RandomWord.gif)
 
 ## Mobile Design 
 
 ![RandomWord-App](./assets/imgs/ScreenshotMobile.png)
 
-https://urstupidsammy.github.io/groupProject/
 
 ## Features
   
@@ -43,7 +44,7 @@ In order to utilize this website, user must have access to a web browser.
 
 This website allows for users a chance to acquire a vast array of words to add to their vocabulary. A user just needs to click the generate button and the website will pull from a massive library of words and provide both the word and definition.
 
-https://urstupidsammy.github.io/groupProject/
+https://urstupidsammy.github.io/Expand-Your-Vernacular/
 
 ## Credits
 
