@@ -5,13 +5,14 @@ In this project we collaborated to create a website that allows users a unique e
 
 In completing this project we have learned how to use a CSS framework to design a webpage. We also were able to utilize data from third-party APIs in conjuntion with javascript to create an interactive web application. 
 
+https://urstupidsammy.github.io/groupProject/
+
 ![RandomWord-App](assets/imgs/RandomWord.gif)
 
 ## Mobile Design 
 
 ![RandomWord-App](./assets/imgs/ScreenshotMobile.png)
 
-https://urstupidsammy.github.io/groupProject/
 
 ## Features
   
