@@ -1,28 +1,28 @@
 # Expand-Your-Vernacular
 
 ## Description
-In this project we collaborated to create a website that allows users a unique experience in learning new words. A user is able to click the generate button and will provided a random word and its definition. The user then can choose to click the generate button and be provided another word and definition. The simple yet responsive design of the website is stream-lined for use on various screen sizes.
+In this project we collaborated to create a website that allows users a unique experience in learning new words. A user is able to click the generate button and will provided a random word with details such as its definition, part of speech, and pronunciation. The simple yet responsive design of the website is stream-lined for use on various screen sizes.
 
 ## Deploy link:
-- https://urstupidsammy.github.io/groupProject/
+- https://urstupidsammy.github.io/Expand-Your-Vernacular/
 
 In completing this project we have learned how to use a CSS framework to design a webpage. We also were able to utilize data from third-party APIs in conjuntion with javascript to create an interactive web application. 
 
-![RandomWord-App](assets/imgs/RandomWord.gif)
+![RandomWord-App](assets/imgs/ExpandYourVernacular.gif)
 
 ## Mobile Design 
 
-![RandomWord-App](./assets/imgs/ScreenshotMobile.png)
+![RandomWord-App](assets/imgs/mobile.png)
 
 ## Features
   
   * Immense library of words with definitions
   * Word selection is completely random
-  * Correct spelling of words provided
+  * Pronunciation of word demonstrated
 
 ## Future Endeavors
 
-  * It is a future endeavor to include an audio element representing how the word is pronounced
+  * It is a future endeavor to include a visual element such as a photo or short video representing the word
 
 ## Tools Utilized
 
@@ -42,14 +42,22 @@ In order to utilize this website, user must have access to a web browser.
 
 ## Usage
 
-This website allows for users a chance to acquire a vast array of words to add to their vocabulary. A user just needs to click the generate button and the website will pull from a massive library of words and provide both the word and definition.
+This website allows for users a chance to acquire a vast array of words to add to their vocabulary. A user just needs to click the generate button and the website will pull from a massive library of words and provide the word, definition, part of speech, and pronunciation of word.
 
 ## Credits
 
+Project Collaborators:
+
 * Samuel Galban https://github.com/Urstupidsammy
-* Luke Mcilvenny  https://github.com/TDGLU
 * Erick Islas https://github.com/Erick454
+* Luke Mcilvenny  https://github.com/TDGLU
 * Cherie Walker https://github.com/Cherie2
+
+Third Party Web APIs:
+
+* Random Word API https://random-word-api.herokuapp.com/home
+* Free Dictionary API https://dictionaryapi.dev/
+* Merriam Dictionary API https://dictionaryapi.com/
 
 Resources of significance:
 

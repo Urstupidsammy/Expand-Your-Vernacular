@@ -9,12 +9,15 @@
   scroll-behavior: smooth;
 }
 
-
+img {
+  margin-top: 0;
+  border-radius:600rem;
+}
 /* Background svg and font */
-body {
+html {
   background-image: url("../imgs/blob-scene-haikei.svg");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size:cover ;
   background-position: center center;
   color: #fff;
   font-family: 'Open Sans', sans-serif;
@@ -39,7 +42,6 @@ h1 {
   color: rgb(0, 174, 255);
   font-size: 2rem;
   font-weight: bold;
-  margin: 0;
 }
 
 /* The Generator with the word and description */
@@ -48,10 +50,10 @@ h1 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 2.5rem;
+  gap: 1rem;
   width: 100%;
   height: auto;
-  margin: 10%;
+  margin-top: 1rem;
 }
 
 /* Generated word */
@@ -75,7 +77,7 @@ h1 {
   background-image: url("../imgs/blurry-gradient-haikei.svg");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center center;
+  background-position: center ;
   color: white;
 }
 
@@ -121,3 +123,17 @@ h1 {
   color: rgb(255, 67, 67);
   cursor: pointer;
 }
+
+@media screen and (max-width:678px) {
+  h1 {
+    font-size:1.8rem;
+    margin:0;
+  }
+  h2, #generted-word, #definitionBox{
+    font-size:1rem;
+  }
+  img {
+    height:200px;
+  }
+
+} 
