@@ -25,6 +25,7 @@ date.textContent = today
 // Function to call the API to get a random word 
 function generateWord() {
     definitionBox.textContent = "Loading...";
+    partOfSpeech.textContent = ''
     fetch(randomWordApi)
     .then(response => response.json())
     .then(data => {
@@ -75,7 +76,7 @@ function getWordDetails(word) {
 
 //Function provides pronunciation for the word through an audio file
 function getWordPronunciation(word) {
-
+    
     fetch(merriamDictionaryApi + word + "?key=d6970864-1994-4574-8ab7-8d26fa55a301")
     .then(response => response.json())
     .then(response => {
