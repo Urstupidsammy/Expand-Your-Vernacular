@@ -59,6 +59,8 @@ function getWordDetails(word) {
 
             //store the parts of speech(noun,verb etc)
             let speechParts = response[0].meanings[0].partOfSpeech
+
+            const finalSpeechParts = speechParts.charAt(0).toUpperCase() + speechParts.slice(1)
             
             // Change the word on the page 
             wordBox.textContent = finalWord;
@@ -67,7 +69,7 @@ function getWordDetails(word) {
             definitionBox.textContent = definition;
 
             //Change the parts of speech on page
-            partOfSpeech.textContent = speechParts;
+            partOfSpeech.textContent = finalSpeechParts;
         })
         .catch(function (err) {
             console.error("No definition found", err)
