@@ -25,6 +25,7 @@ date.textContent = today
 // Function to call the API to get a random word 
 function generateWord() {
     definitionBox.textContent = "Loading...";
+    partOfSpeech.textContent = ''
     fetch(randomWordApi)
     .then(response => response.json())
     .then(data => {
@@ -58,6 +59,8 @@ function getWordDetails(word) {
 
             //store the parts of speech(noun,verb etc)
             let speechParts = response[0].meanings[0].partOfSpeech
+
+            const finalSpeechParts = speechParts.charAt(0).toUpperCase() + speechParts.slice(1)
             
             // Change the word on the page 
             wordBox.textContent = finalWord;
@@ -66,7 +69,7 @@ function getWordDetails(word) {
             definitionBox.textContent = definition;
 
             //Change the parts of speech on page
-            partOfSpeech.textContent = speechParts;
+            partOfSpeech.textContent = finalSpeechParts;
         })
         .catch(function (err) {
             console.error("No definition found", err)
@@ -75,7 +78,7 @@ function getWordDetails(word) {
 
 //Function provides pronunciation for the word through an audio file
 function getWordPronunciation(word) {
-
+    
     fetch(merriamDictionaryApi + word + "?key=d6970864-1994-4574-8ab7-8d26fa55a301")
     .then(response => response.json())
     .then(response => {
